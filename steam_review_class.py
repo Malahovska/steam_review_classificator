@@ -215,4 +215,3 @@ def compute_f1_score(model, data_loader, device):
     f1 = f1_score(all_labels, all_predictions)
     return f1
 print("F1 score:", compute_f1_score(model, test_loader, DEVICE))
-```
